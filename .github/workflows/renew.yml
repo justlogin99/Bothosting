@@ -3,7 +3,7 @@ name: Auto Renew Bot-hosting
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '0 19 * * *'
   repository_dispatch:
     types: [service-down-alert]
 
